@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2024-08-21 17:42:27"
+	"lastUpdated": "2024-08-25 21:24:03"
 }
 
 /*
@@ -50,7 +50,7 @@ function detectWeb(doc, url) {
 
 async function doWeb(doc, url) {
 	let position = url.indexOf('/id/');
-	let id = url.substr(position + 4);
+	let id = (url.substr(position + 4)).replace('?','&');
 	let jsonURL = `https://catalog.archives.gov/proxy/records/search?naId_is=${id}&allowLegacyOrgNames=true`;
 	let json = (await requestJSON(jsonURL)).body.hits.hits[0]._source.record;
 
