@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2024-08-25 21:24:03"
+	"lastUpdated": "2024-08-25 21:30:10"
 }
 
 /*
@@ -266,6 +266,33 @@ var testCases = [
 						"snapshot": false
 					}
 				],
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
+			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "https://catalog.archives.gov/id/124830106?objectPage=43",
+		"items": [
+			{
+				"itemType": "book",
+				"title": "June 10 to 14, 1907: Permits 3949 - 4010",
+				"creators": [
+					{
+						"lastName": "District of Columbia. Department of Building Inspection. ca. 1877-ca. 1958",
+						"creatorType": "author",
+						"fieldMode": 1
+					}
+				],
+				"archive": "National Archives at College Park - Textual Reference",
+				"extra": "National Archives Identifier: 124830106",
+				"libraryCatalog": "US National Archives Research Catalog",
+				"series": "Records of the Government of the District of Columbia",
+				"shortTitle": "June 10 to 14, 1907",
+				"url": "https://catalog.archives.gov/id/124830106?objectPage=43",
+				"attachments": [],
 				"tags": [],
 				"notes": [],
 				"seeAlso": []
